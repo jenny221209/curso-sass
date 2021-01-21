@@ -1,0 +1,19 @@
+.nav {
+  background-color: coral;
+  height: 50px;
+}
+
+.header {
+  background-color: brown;
+  height: 500px;
+}
+
+.section {
+  background-color: burlywood;
+  height: 300px;
+}
+
+.footer {
+  background-color: coral;
+  height: 200px;
+}
