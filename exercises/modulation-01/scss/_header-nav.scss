@@ -43,12 +43,14 @@
 }
 
 
+
+
 /* Header */
 
 .header__div-contenedor {
     display: flex;
     align-items: center;
-    flex-flow: wrap-reverse;
+    flex-flow: row wrap;
     padding: 20px;
    
 }

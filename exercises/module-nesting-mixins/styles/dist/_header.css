@@ -1,0 +1,42 @@
+.header {
+  background-color: brown;
+  background-image: url("../img/fondo.jpg");
+}
+.header .header__nav {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  padding: 30px;
+}
+.header .header__ul-logo {
+  display: flex;
+  padding: 5px;
+  margin-left: 10px;
+}
+.header label {
+  font-weight: 30px;
+  color: white;
+}
+.header .header__ul-texto {
+  display: flex;
+}
+.header .header__li {
+  list-style: none;
+}
+.header .header__a {
+  text-decoration: none;
+  color: white;
+  margin: 10px 15px;
+}
+.header .header__div-contenedor {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: black;
+}
+.header .header__div-bloque {
+  display: flex;
+  width: 15px;
+  font-weight: 15px;
+  color: white;
+}

@@ -43,7 +43,7 @@
 .header__div-contenedor {
   display: flex;
   align-items: center;
-  flex-flow: wrap-reverse;
+  flex-flow: row wrap;
   padding: 20px;
 }
 
@@ -75,19 +75,4 @@
   padding: 10px;
   color: white;
   border: none;
-}
-
-/* Section */
-.section {
-  display: grid;
-  background-color: #C4CBCF;
-  opacity: 50%;
-  height: 500px;
-}
-
-.section__div-contenedor {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  gap: 10px;
-  padding: 30px;
 }
