@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import "./dist/main.css";
 .header {
-  background-color: brown;
-  background-image: url("../img/fondo.jpg");
+  background-image: url("../../img/fondo.jpg");
+  height: 700px;
 }
 .header .header__nav {
+  background-color: brown;
   display: flex;
   justify-content: space-between;
   height: 55px;
@@ -32,15 +33,33 @@
 }
 .header .header__div-contenedor {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   flex-flow: row wrap;
-  background-color: black;
 }
 .header .header__div-bloque {
-  display: flex;
-  width: 15px;
-  font-weight: 15px;
+  display: block;
+  margin: 20px 18px;
   color: white;
+}
+
+.footer {
+  display: grid;
+  background-color: #5B8DF0;
+  padding: 10px;
+}
+.footer .footer__div-contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer__div-bloque-izq {
+  display: flex;
+}
+.footer .footer__div-bloque-dra {
+  display: flex;
+}
+.footer .footer__texto {
+  display: flex;
+  justify-content: flex-end;
 }
 
 * {

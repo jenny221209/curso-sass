@@ -1,54 +1,22 @@
+@import './nav.scss';
 
 .header {
-    background-color: brown;
-    background-image: url('../img/fondo.jpg');
 
-.header__nav {
-    display: flex;
-    justify-content: space-between;
-    height: 55px;
-    padding: 30px;
-}
+    background-image: url('../../img/fondo.jpg');
+    height: 700px;
 
-.header__ul-logo {
-    display: flex;
-    padding: 5px;
-    margin-left: 10px;
-    
-}
+    @include nav;
 
-& label {
-    font-weight: 30px;
-    color: white;
-}
+    .header__div-contenedor {
+        display: flex;
+        align-items: flex-end;
+        flex-flow: row wrap; 
+    }
 
-.header__ul-texto {
-    display: flex;
-}
-
-.header__li {
-    list-style: none;
-    
-}
-
-.header__a {
-    text-decoration: none;
-    color: white;
-    margin: 10px 15px;
-}
-
-.header__div-contenedor {
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    background-color: black;
-}
-
-.header__div-bloque {
-    display: flex;
-    width: 15px;
-    font-weight: 15px;
-    color: white;
-}
+    .header__div-bloque {
+        display: block;
+        margin: 20px 18px ; 
+        color: white;
+    }
 
 }

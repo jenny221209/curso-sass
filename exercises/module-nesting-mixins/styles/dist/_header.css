@@ -1,8 +1,9 @@
 .header {
-  background-color: brown;
-  background-image: url("../img/fondo.jpg");
+  background-image: url("../../img/fondo.jpg");
+  height: 700px;
 }
 .header .header__nav {
+  background-color: brown;
   display: flex;
   justify-content: space-between;
   height: 55px;
@@ -30,13 +31,11 @@
 }
 .header .header__div-contenedor {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   flex-flow: row wrap;
-  background-color: black;
 }
 .header .header__div-bloque {
-  display: flex;
-  width: 15px;
-  font-weight: 15px;
+  display: block;
+  margin: 20px 18px;
   color: white;
 }

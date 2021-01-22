@@ -1,0 +1,35 @@
+@mixin nav {
+    .header__nav {
+        background-color: brown;
+        display: flex;
+        justify-content: space-between;
+        height: 55px;
+        padding: 30px;
+        }
+        
+        .header__ul-logo {
+        display: flex;
+        padding: 5px;
+        margin-left: 10px;
+        
+        }
+        
+        & label {
+        font-weight: 30px;
+        color: white;
+        }
+        
+        .header__ul-texto {
+        display: flex;
+        }
+        
+        .header__li {
+        list-style: none; 
+        }
+        
+        .header__a {
+        text-decoration: none;
+        color: white;
+        margin: 10px 15px;
+        }
+}
