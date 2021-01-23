@@ -1,0 +1,27 @@
+/* Colores */
+/* Section */
+/* Colores */
+/* Footer */
+/* Degradado */
+/* Header */
+.header {
+  /*background: $degradado-header;*/
+  background-color: aqua;
+}
+.header .header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header__ul-texto {
+  display: flex;
+}
+.header .header__li {
+  display: flex;
+  list-style: none;
+}
+.header .header__a {
+  display: flex;
+  color: #ffffff;
+  margin: 10px 10px;
+  text-decoration: none;
+}
