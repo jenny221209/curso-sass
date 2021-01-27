@@ -5,23 +5,67 @@
 /* Degradado */
 /* Header */
 .header {
-  /*background: $degradado-header;*/
-  background-color: aqua;
+  background: linear-gradient(140deg, #EC0CB0, #2553D2);
 }
 .header .header__nav {
   display: flex;
   justify-content: space-between;
 }
+.header .header__ul-img {
+  margin-left: 44px;
+  margin-top: 21px;
+}
+.header label {
+  color: white;
+}
 .header .header__ul-texto {
   display: flex;
+  margin-left: 50px;
+  margin-top: 21px;
 }
 .header .header__li {
-  display: flex;
   list-style: none;
 }
 .header .header__a {
-  display: flex;
   color: #ffffff;
   margin: 10px 10px;
   text-decoration: none;
+}
+.header .header__ul-login {
+  margin-top: 21px;
+  margin-right: 41px;
+}
+.header .header__div-contenedor {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-left: 60px;
+  margin-top: 38px;
+}
+.header .header__h1-texto {
+  color: white;
+}
+.header .header__p-texto {
+  height: 100px;
+  width: 30%;
+  color: white;
+}
+.header .header__button {
+  background-color: #a2bd00;
+  width: 100px;
+  height: 30px;
+  margin-left: 60px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+}
+.header .header__div-contenedor-ti {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+}
+.header .header__img {
+  width: 200px;
+  height: 215px;
 }
