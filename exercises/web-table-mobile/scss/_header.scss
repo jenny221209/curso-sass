@@ -1,6 +1,7 @@
 
 /* Header */
 .header {
+    display: grid;
     background: $degradado-header;
 
     .header__nav {
@@ -42,12 +43,18 @@
 
     /* Header */
     .header__div-contenedor {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        gap: 10px;
+        display: flex;
+        justify-content: center;
         margin-left: 60px;
         margin-top: 45px;  
     }
+
+    .header__div-bloque {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;  
+    }
+
 
     .header__h1-texto {
         color:$blanco-nav;
@@ -71,7 +78,8 @@
         color:$blanco-nav;
     }
 
-    .header__div-contenedor-ti {
+    .header__div-bloque-ti {
+        width: 50%;
         margin-bottom: 50px;
     }
 
